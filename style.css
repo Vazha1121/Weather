@@ -1,0 +1,55 @@
+body
+{
+    background-image: url(./icons/blue-sky-with-white-cotton-clouds\ \(1\).jpg);
+    background-size: 100% 1000px;
+    background-repeat: no-repeat;
+}
+.container
+{
+    padding-inline: 15px;
+}
+.am1
+{
+    text-align: center;
+}
+
+.card-weather
+{
+    padding: 15px;
+    background-color: rgba(53, 50, 50, 0.3);
+    border-radius:10px;
+    color: white;
+    filter:drop-shadow(2px 1px 4px rgba(1,1,1));
+   
+}
+.card-weather > div 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.card-weather h3 
+{
+    text-align: center;
+}
+.city
+{
+    text-align: center;
+}
+.weather-icons
+{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+}
+.container-fluid
+{
+    background-color: rgba(63, 112, 219, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.navimg
+{
+    width: 50px;
+    height: 50px;
+}
